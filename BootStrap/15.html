@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+    <script src="./jquery-1.10.2.js"></script>
+    <script src='./bootstrap-3.3.7-dist/js/bootstrap.min.js'></script>
+    <style>
+    #MyExample{
+      width:150px;
+      height: 150px;
+    }
+    </style>
+</head>
+<body>
+  <div class="carousel slide" id="MyExample" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#MyExample" data-slide-to="0" class="active"></li>
+      <li data-target="#MyExample" data-slide-to="1"></li>
+      <li data-target="#MyExample" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active" >
+        <img src="./Pic.jpg" alt="">
+        <div class="carousel-caption">
+          <h6>曼联</h6>
+          <p></p>
+        </div>
+      </div>
+      <div class="item">
+          <img src="./Pic.jpg" alt="">
+          <div class="carousel-caption">
+            <h3></h3>
+            <p></p>
+          </div>
+        </div>
+        <div class="item">
+            <img src="./Pic.jpg" alt="">
+            <div class="carousel-caption">
+              <h3></h3>
+              <p></p>
+            </div>
+          </div>
+    </div>
+    
+
+    <a href="#MyExample" class="left carousel-control" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a href="#MyExample" class="right carousel-control" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+  </div>
+</body>
+</html>
